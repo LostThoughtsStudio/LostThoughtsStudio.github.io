@@ -163,7 +163,7 @@ h3.heading
 {
 	width: 4rem;
 	height: .4rem;
-	background-color: #8adb43;
+	background-color: white;
 	margin: 0 auto 2rem;
 }
 .row.no-padding[class*=col-]
@@ -230,6 +230,32 @@ h3.heading
 {
 	margin: 3rem;
 }
+
+.project h1
+{
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.project img
+{
+	max-width: 100%;
+	transition: transform .5s ease;
+	padding-bottom:  1rem; 
+	padding-top: 1rem;
+}
+.project img:hover
+{
+	transform: scale(1.5);
+	cursor: zoom-in;
+}
+
+.project
+{
+	overflow: hidden;
+}
+
+
 .card
 {
 	color: black;
@@ -472,6 +498,16 @@ footer hr.socket
 		transition: transform .5s ease;
 		padding-bottom:  .5rem; 
 		padding-top: .5rem;
+	}
+
+	.project h1
+	{
+		font-size: 50px;
+		font-weight: bold;
+	}
+	.project h2
+	{
+		font-size: 30px;
 	}
 
 	.plans img
