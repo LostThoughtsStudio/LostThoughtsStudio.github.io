@@ -191,7 +191,7 @@ h3.heading
 
 .icon img
 {
-	height: 200px;
+	height: 400px;
 	transition: transform .5s ease;
 	padding-bottom:  1rem; 
 	padding-top: 1rem;
@@ -468,6 +468,14 @@ footer hr.socket
 	.carousel-caption .btn-lg
 	{
 		font-size: 1rem;
+	}
+
+	.icon img
+	{
+		height: 300px;
+		transition: transform .5s ease;
+		padding-bottom:  1rem; 
+		padding-top: 1rem;
 	}
 
 	.narrow h1
