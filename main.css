@@ -58,8 +58,7 @@ body
 
 .carousel-caption
 {
-	position: center;
-	top:30%;	
+	position: relative;
 }
 .carousel-caption h1
 {
@@ -82,8 +81,9 @@ body
 	height: 90%;
 
 }
-.carousel-caption .btn-lg
+ .btn-lg
 {
+	text-align: center;
 
 	border-color: white;
 	color: white;
@@ -91,7 +91,7 @@ body
 	border-radius: 0;
 	font-size: 1.1rem;
 }
-.carousel-caption .btn-lg:hover
+.btn-lg:hover
 {
 	color: black;
 	background-color: white;
@@ -465,7 +465,7 @@ footer hr.socket
 		font-size: 2rem;
 		padding-bottom: .3rem;
 	}
-	.carousel-caption .btn-lg
+	.btn-lg
 	{
 		font-size: 1rem;
 	}
